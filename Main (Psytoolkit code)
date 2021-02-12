@@ -1,0 +1,53 @@
+scale: agree   # depending on the Likert scale you want to use
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+
+
+l: Gender  # here's your label
+t: radio  # radio asks for selecting among given options
+q: What is your gender? # what you type here will be displayed
+- M 
+- F
+- other
+
+l: Age
+t: textbox   # here people can write
+q: How old are you?
+- Età: 
+
+
+
+
+l: Practice
+q: Let's practice! Rate a sentence among...
+t: scale agree 
+- Stimulus bla bla # here you put the practice item
+
+
+
+
+random: begin   # items from here will be randomized
+
+
+l: question1
+q:  Rate the sentence
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- sentence1
+
+l: question1
+q:  Rate the sentence
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- sentence1
+
+
+
+
+random: end
+ 
+
+
