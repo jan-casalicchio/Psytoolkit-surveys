@@ -4,20 +4,17 @@ scale: agree   # depending on the Likert scale you want to use
 - 3
 - 4
 - 5
-- 6
-- 7
-
 
 l: Gender  # here's your label
 t: radio  # radio asks for selecting among given options
-q: What is your gender? # what you type here will be displayed
+q: Qual è il tuo genere? # what you type here will be displayed
 - M 
 - F
-- other
+- altro/preferisco non dirlo
 
 l: Age
 t: textbox   # here people can write
-q: How old are you?
+q: Quanti anni hai?
 - Età: 
 
 
