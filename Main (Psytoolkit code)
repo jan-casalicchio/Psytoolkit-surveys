@@ -17,29 +17,237 @@ t: textbox   # here people can write
 q: Quanti anni hai?
 - Età: 
 
+l: Origin
+t: textbox   # here people can write
+q: Parli il dialetto di quale paese?
+- Paese:
+
+l: Competence 
+t: scale agree
+q: Da 1 a 5, quanto bene pensi di conoscere il dialetto?
 
 
-
-l: Practice
-q: Let's practice! Rate a sentence among...
+l: Practice1
+q: In questa indagine vedrai delle frasi scritte in dialetto trentino. Ti chiediamo di dare un giudizio da 1 a 5 (1 = non si può dire assolutamente; 5 = è perfetta). I dialetti del Trentino non hanno una grafia standard, quindi non guardare a come abbiamo scritto le parole, e se sono proprio uguali nel tuo dialetto (per esempio, se sei di Rovereto dirai "pam" e "bom", però se trovi scritto "pan" e "bon" non valutarli come errori). A noi infatti interessa la sintassi (come sono messe le parole), e non la pronuncia o il lessico.
+Vediamo un esempio.
 t: scale agree 
-- Stimulus bla bla # here you put the practice item
+- El Gino el magna massa pan. --> puoi dargli 5 perché è una frase che si può dire nei dialetti trentini (dagli 5 anche se tu dici "pam").
 
-
+l: Practice2
+q: Ecco un secondo esempio.
+t: scale agree 
+- Ti magni massa pan. --> probabilmente questa frase non ti piacerà perché preferiresti dire "Ti *te* magni massa pan". Se la frase proposta non ti suona proprio, dagli 1.
 
 
 random: begin   # items from here will be randomized
 
 
 l: question1
-q:  Rate the sentence
+q:  Valuta questa frase
 t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
-- sentence1
+- Te sarai ben content ades.
 
-l: question1
-q:  Rate the sentence
+l: question2
+q:  Valuta questa frase
 t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
-- sentence1
+- Mi sarìa ben content, se no ghe fossa pu el Covid.
+
+l: question3
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- El Paolo, che l'è ben vegnù algeri, l'è el fradel de la Sara.
+
+l: question4
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- El me gat, che t'hai ben vist anca ti, l'è tut bianch.
+
+l: question5
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Quel matelot che è ben vegnù algeri el se ciama Paolo.
+
+l: question6
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Ho comprà quela maia che t'avevi ben vist anca ti.
+
+l: question7
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Mi vorìa che l nessa ben al'università, ma elo el vol nar a laorar.
+
+l: question8
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Va ben, lo fago, basta che l sia ben content.
+
+l: question9
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- No sta a preocuparte, el dis che l te speta ben.
+
+l: question10
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- El Marco el m'ha contà che ala fin l'è ben nà a Parigi.
+
+l: question11
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Ha't ben comprà el pan?
+
+l: question12
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Se't ben el fiol de la Maria ti?
+
+l: question13
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- T'hai ben comprà el pan?
+
+l: question14
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Te sei ben el fiol de la Maria ti?
+
+l: question15
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Coss'è che t'hai ben comprà al mercà?
+
+l: question16
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Ndò ha't ben comprà quel libro lì?
+
+l: question17
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Ciama ben la zia!
+
+l: question18
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Compra ben el pan doman!
+
+l: question19
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Vara ben de ciamar la zia!
+
+l: question20
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Vara ben de comprar el pan doman!
+
+l: question21
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- No sta a preocuparte, ben te speto.
+
+l: question22
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- No serve che te me lo disi, ben lo so.
+
+l: question23
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- No ho scoltà la partita, ho scoltà ben la musica.
+
+l: question24
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- La zia Lisa no l'ho gnancora ciamada, ho ciamà ben la zia Mara.
+
+l: question25
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- A: Com'èlo el film che t'hai vist algeri? 
+- B: L'è ben bel!
+
+l: question26
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- A: El Carlo l'è propi maleducà. 
+- B: Eh, te gai ben resòn!
+
+l: question27
+q:  Come interpreti questa frase?
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- (Ala festa de la Paola,) t'hai ben magnà el strudel o el zelten?
+- 1. Chi parla vuole sapere se ho mangiato uno qualsiasi dei due dolci (o se invece non ne ho mangiato nessuno)
+- 2. Chi parla vuole sapere quale tra i due dolci ho mangiato, lo strudel o lo zelten.
+- 3. Entrambe le possibilità
+
+l: question28
+q:  Come interpreti questa frase?
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Ala fin t'hai ben ciamà el Marco o el Gino?
+- 1. Chi parla vuole sapere se ho chiamato almeno uno qualsiasi dei due ragazzi (o se invece non ho chiamato nessuno dei due)
+- 2. Chi parla vuole sapere quale tra i due ragazzi ho chiamato, il Gino o il Paolo
+- 3. Entrambe le possibilità
+
+l: filler1
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- A: Com'èla la casa del Mario? 
+- B: No l'ho miga vista. 
+
+l: filler2
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- A: Cos'èl suzes? 
+- B: No ho miga encontrà la Monica. 
+
+l: filler3
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- A: Perché te pianzi? 
+- B: No ho miga passà i esami.
+
+l: filler4
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- A: El Luca l'è propi maleducà. 
+- B: No miga sol el Luca, anca el Paolo no'l scherza.
+
+l: filler5
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- El magna pom Giovanni.
+
+l: filler6
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Dormì mal ho mi.
+
+l: filler7
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- La Piera no la parla todesch.
+
+l: filler8
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- La Francesca la laora a Perzen. 
+
+l: filler9
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Nessun m'ha vist. (oppure: Nessuni m'ha vist, se dici così nel tuo dialetto)
+
+l: filler10
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Nessun i m'ha vist. (oppure: Nessuni i m'ha vist, se dici così nel tuo dialetto)
+
+l: filler11
+q:  Valuta questa frase
+t: scale agree # with this command, speakers will be asked to rate using the scale defined at the beginning
+- Nessun el m'ha vist. (oppure: Nessuni el m'ha vist, se dici così nel tuo dialetto) 
 
 
 
